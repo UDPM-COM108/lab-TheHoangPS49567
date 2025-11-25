@@ -87,8 +87,7 @@ int main() {
         printf("1. Bai 1: Trung binh cac so chia het cho 2\n");
         printf("2. Bai 2: Kiem tra so nguyen to\n");
         printf("3. Bai 3: Kiem tra so chinh phuong (cach 1)\n");
-        printf("4. Bai 4: Kiem tra so chinh phuong (cach 2)\n");
-        printf("5. Thoat\n");
+        printf("4. Thoat\n");
         printf("Nhap lua chon cua ban (1-5): ");
         scanf("%d", &choice);
 
@@ -103,15 +102,11 @@ int main() {
                 bai3();
                 break;
             case 4:
-                bai4();
-                break;
-            case 5:
                 printf("Cam on ban da su dung chuong trinh!\n");
                 break;
             default:
                 printf("Lua chon khong hop le. Vui long chon lai.\n");
         }
     } while (choice != 5);
-
     return 0;
 }
